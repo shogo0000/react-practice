@@ -24,7 +24,6 @@ if (isLoggedIn) {
  return <LoginButton toggleIsLoggedIn={toggleIsLoggedIn} />;
 
 };
-
 export default function App() {
   return <LoginControl />
 }
